@@ -67,7 +67,7 @@ const vcard = 'BEGIN:VCARD\n'  //Jangan diganti,Ntar error
             + 'VERSION:3.0\n'  //Jangan diganti,Ntar error
             + 'FN:Akira\n'  // Ganti jadi namamu
             + 'ORG:Pengembang ${namabot};\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6282158549899:+6282158549899\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'TEL;type=CELL;type=VOICE;waid=94767285455:+94767285455\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // Jangan diganti,Ntar Error
             
 //settings            
@@ -79,7 +79,7 @@ cr = '*Akira Bot By Akira*'
 vr = '*Akira Bot Wa*\n*Subscribe Akira*'
 
 //owner number
-const ownerNumber = ["6282158549899@s.whatsapp.net"]  //Ganti Jadi Nomormu
+const ownerNumber = ["94767285455@s.whatsapp.net"]  //Ganti Jadi Nomormu
 
 //file json
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
